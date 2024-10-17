@@ -20,8 +20,6 @@ def plot_upset(
     vertical_spacing: float = 0.05,
     horizontal_spacing: float = 0.125,
     marker_size: int = 12,
-    height: int = 400,
-    width: int = 640,
     marginal_data: list = [],
     marginal_title: list = [],
     marginal_y: bool = False,
@@ -495,8 +493,6 @@ def plot_upset(
             x=0 if not marginal_y else 1.0
         ),
         showlegend=True,
-        height=height,
-        width=width,
         paper_bgcolor="white",
         plot_bgcolor="rgba(0, 0, 0, 0)",
         hovermode='closest',
