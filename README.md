@@ -13,7 +13,7 @@
 
 <p align="center">
     <i>
-        UpSet intersection visualization utility for Plolty (Python-only)
+        UpSet intersection visualization utility for Ploty (Python-only)
     </i>
 </p>
 
@@ -24,7 +24,7 @@ UpSet intersection visualization method for Plolty (Python-only) -->
 ## Installation
 
 ```bash
-pip install git+https://github.com/hshhrr/plotly-upset.git
+pip install git+https://github.com/aviai/plotly-upset.git
 ```
 
 ## Examples
